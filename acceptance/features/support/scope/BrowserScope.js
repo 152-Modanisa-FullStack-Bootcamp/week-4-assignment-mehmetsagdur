@@ -15,8 +15,10 @@ class BrowserScope {
 
     async init(){
         const defaultOptions = {
-            args: ['--no-sandbox', '--disable-dev-shm-usage'], 
-            ignoreHTTPSErrors: true
+            args: ['--no-sandbox', '--disable-dev-shm-usage', '--window-size=1260,768'],
+            ignoreHTTPSErrors: true,
+            defaultViewport: {width: 1260, height: 768},
+            headless: true,
         }
         this.close();
 

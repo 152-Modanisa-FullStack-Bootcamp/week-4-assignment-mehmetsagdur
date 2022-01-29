@@ -12,11 +12,12 @@
     "axe-reports": "^1.1.11",
     "cucumber": "^6.0.5",
     "dotenv": "^8.6.0",
+    "expect": "^27.4.6",
     "pixelmatch": "^5.2.1",
     "puppeteer": "^8.0.0"
   },
   "puppeteerOptions": {
     "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true",
-    "PUPPETEER_EXECUTABLE_PATH": "which chromium"
+    "PUPPETEER_EXECUTABLE_PATH": "C:\\chromium\\chrome-win"
   }
 }

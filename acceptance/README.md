@@ -41,7 +41,7 @@ You can customize [Puppeteer's launch options](https://github.com/GoogleChrome/p
 ```javascript
 // package.json
 "puppeteerOptions" : {
-    "headless": false,
+    "headless": true,
     "sloMo": 250,
     "defaultViewport": {
         "width": 1000,
